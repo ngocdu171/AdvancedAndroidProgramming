@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "691846262544",
+    "project_id": "chatboxapi-15b2a",
+    "storage_bucket": "chatboxapi-15b2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691846262544:android:dd205079a6fcca8adbbf95",
+        "android_client_info": {
+          "package_name": "din19sp.dupham.chatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691846262544-777um7jge501n85kpsvlp9tpdsjcp2jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaZbyW9Cbke8Wet1csrcIl3qCRLgm9q5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691846262544-777um7jge501n85kpsvlp9tpdsjcp2jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
