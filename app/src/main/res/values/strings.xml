@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ChatBox</string>
+    <string name="enter_message_here">enter_message_here</string>
 </resources>
