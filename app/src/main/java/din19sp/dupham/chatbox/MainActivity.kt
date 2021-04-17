@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         val messageListener = object: ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.value != null) {
-                    val messagesFromDatabase = (snapshot.value as HashMap<Int, ArrayList<String>>).get("messages")
+                    val messagesFromDatabase= (snapshot.value as HashMap<String, ArrayList<String>>).get("messages")
                     messages.clear()
                     messagesFromDatabase?.forEach {
                         if (it != null) messages.add(it)
@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun addMessage() {
-        val  newMessage = edMessage.text.toString()
+        val newMessage = edMessage.text.toString()
         messages.add(newMessage)
         database.child("messages").setValue(messages)
         edMessage.setText("")
