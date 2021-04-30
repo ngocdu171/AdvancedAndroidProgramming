@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/CustomActionBarTheme">
-<!--        android:theme="@style/Theme.ChatBox">-->
         <activity android:name=".Settings"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
