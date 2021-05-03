@@ -171,6 +171,7 @@ class MainActivity : AppCompatActivity() {
                 else {
                     Log.w(TAG, "signInWithEmail: Fail!", task.exception)
                     Toast.makeText(baseContext, "Authentication failed", Toast.LENGTH_SHORT).show()
+                    loginDialog()
                 }
             }
     }

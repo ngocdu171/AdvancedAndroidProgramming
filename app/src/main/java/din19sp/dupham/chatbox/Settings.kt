@@ -25,7 +25,7 @@ class Settings : AppCompatActivity() {
         }
 
         val currentUser = intent.getParcelableExtra<FirebaseUser>("currentUser")
-        tvEmail.setText(currentUser?.email)
+        tvEmail.setText("Hello " + currentUser?.email)
     }
 
     override fun onSupportNavigateUp(): Boolean {
